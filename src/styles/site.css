@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #FFF;
+    font-family: "Source Code Pro", sans-serif;
+    font-weight:bold;
+    font-feature-settings: 'liga' 0;
+}
