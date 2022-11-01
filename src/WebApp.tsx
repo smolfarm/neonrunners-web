@@ -62,7 +62,7 @@ const WebApp = () => {
                             <MintView />
                         </div>
 
-                        <div className="mx-auto">
+                        <div className="mx-auto mt-12">
                             <li className="list-none text-2xl mb-12">
                                 <ul><a className="text-blue-500" href="https://opensea.io/collection/neon-runners" target="_new">OpenSea</a></ul>
                                 <ul><a className="text-blue-500" href="https://etherscan.io/address/0x82f2b7599ecd534c3e2ccf160f2f090bc483f5aa" target="_new">Etherscan</a></ul>
