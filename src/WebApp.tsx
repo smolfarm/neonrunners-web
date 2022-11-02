@@ -23,7 +23,7 @@ const { chains, provider } = configureChains(
       alchemyProvider({ apiKey: "Hh8fdQZL2nYcS0fYVKslLvSoIZM7Ml9L" }),
       publicProvider()
     ]
-  );
+);
   
 const { connectors } = getDefaultWallets({
     appName: 'neon runners',
@@ -49,9 +49,9 @@ const WebApp = () => {
 
                     <div className="flex flex-col mt-[-128] mx-auto w-max">
                         <div className="w-max text-center mx-auto text-6xl mb-12">
-                            ["<a className="text-blue-500" href="https://twitter.com/NEONRUNNERSnft" target="_new">TWITTER</a>",<br />
-                            "<a className="text-blue-500" href="https://twitter.com/fumeiji" target="_new">ART_BY_FUMEIJI</a>",<br />
-                            "<a className="text-blue-500" href="https://ens0.me" target="_new">TECH_BY_ENS0</a>"]<br />
+                            [&quot;<a className="text-blue-500" href="https://twitter.com/NEONRUNNERSnft" target="_new">TWITTER</a>&quot;,<br />
+                            &quot;<a className="text-blue-500" href="https://twitter.com/fumeiji" target="_new">ART_BY_FUMEIJI</a>&quot;,<br />
+                            &quot;<a className="text-blue-500" href="https://ens0.me" target="_new">TECH_BY_ENS0</a>&quot;]<br />
                         </div>
 
                         <div className="w-max text-center mx-auto">
@@ -63,10 +63,10 @@ const WebApp = () => {
                         </div>
 
                         <div className="mx-auto mt-12">
-                            <li className="list-none text-2xl mb-12">
-                                <ul><a className="text-blue-500" href="https://opensea.io/collection/neon-runners" target="_new">OpenSea</a></ul>
-                                <ul><a className="text-blue-500" href="https://etherscan.io/address/0x82f2b7599ecd534c3e2ccf160f2f090bc483f5aa" target="_new">Etherscan</a></ul>
-                            </li>
+                            <ul className="list-none text-2xl mb-12">
+                                <li>[&quot;<a className="text-blue-500" href="https://opensea.io/collection/neon-runners" target="_new">OpenSea</a>&quot;,</li>
+                                <li>&quot;<a className="text-blue-500" href="https://etherscan.io/address/0x82f2b7599ecd534c3e2ccf160f2f090bc483f5aa" target="_new">Etherscan</a>&quot;]</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
