@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
-import { usePrepareContractWrite, useContractWrite, useAccount } from 'wagmi'
-import { BigNumber } from 'ethers'
-import { parseEther } from 'ethers/lib/utils'
+import { useContractWrite, useAccount } from 'wagmi'
 import Swal from 'sweetalert2'
 import { contractAddress } from './const'
 import { ethers } from 'ethers'
