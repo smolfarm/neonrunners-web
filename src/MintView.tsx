@@ -29,7 +29,7 @@ const MintView = () => {
 
     if(!isConnected) {
         return(
-            <div>
+            <div className="mx-auto">
                 Connect wallet to see more.
             </div>
         )
