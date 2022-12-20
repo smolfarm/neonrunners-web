@@ -1,3 +1,17 @@
+/**
+ * 
+ *                   _        ___                   
+ *                  | |      / __)                  
+ *   ___ ____   ___ | |    _| |__ _____  ____ ____  
+ *  /___)    \ / _ \| |   (_   __|____ |/ ___)    \ 
+ * |___ | | | | |_| | |     | |  / ___ | |   | | | |
+ * (___/|_|_|_|\___/ \_)    |_|  \_____|_|   |_|_|_|
+ * 
+ * 
+ * React component for handling new mints of neon runners
+ * 
+ */
+
 import React, { useState } from 'react'
 import { useContractWrite, useAccount } from 'wagmi'
 import Swal from 'sweetalert2'
@@ -10,6 +24,7 @@ const MintView = () => {
     const { isConnected } = useAccount()
     const [qty, setQty] = useState(1)
 
+    // Ensure the quantity they set is valid
     const blur = () => {
         if(qty > 5 || qty < 1) {
             setQty(1)
@@ -27,6 +42,7 @@ const MintView = () => {
         },
     })
 
+    // Handle cases where their wallet is not yet connected
     if(!isConnected) {
         return(
             <div className="mx-auto">
@@ -35,6 +51,7 @@ const MintView = () => {
         )
     }
 
+    // They actually tried to mint!
     const mint = () => {
         if(write)
             write()

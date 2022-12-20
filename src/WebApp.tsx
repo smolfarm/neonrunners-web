@@ -1,17 +1,30 @@
+/**
+ * 
+ *                   _        ___                   
+ *                  | |      / __)                  
+ *   ___ ____   ___ | |    _| |__ _____  ____ ____  
+ *  /___)    \ / _ \| |   (_   __|____ |/ ___)    \ 
+ * |___ | | | | |_| | |     | |  / ___ | |   | | | |
+ * (___/|_|_|_|\___/ \_)    |_|  \_____|_|   |_|_|_|
+ * 
+ * 
+ * React component at the top level of the neon runners web app.
+ * 
+ */
+
 import React from 'react'
 
 import {
     getDefaultWallets,
     RainbowKitProvider,
-    ConnectButton,
-    Theme,
-    darkTheme
+    ConnectButton
 } from '@rainbow-me/rainbowkit'
+
 import {
-chain,
-configureChains,
-createClient,
-WagmiConfig,
+    chain,
+    configureChains,
+    createClient,
+    WagmiConfig,
 } from 'wagmi'
 
 import { alchemyProvider } from 'wagmi/providers/alchemy'
