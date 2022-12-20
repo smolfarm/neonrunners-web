@@ -1,12 +1,16 @@
 {
   "name": "neonrunners-web",
+  "description": "Website for the neon runners NFT collection.",
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "build": "parcel build src/index.html",
     "start": "parcel src/index.html",
     "test": "jest"
   },
   "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
     "parcel": "^2.7.0",
     "process": "^0.11.10"
   },
