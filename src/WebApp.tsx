@@ -78,8 +78,8 @@ const WebApp = () => {
                         <div className="mx-auto mt-12">
                             <ul className="list-none text-2xl mb-12">
                                 <li>[&quot;<a className="text-blue-500" href="https://opensea.io/collection/neon-runners" target="_new">OpenSea</a>&quot;,</li>
-                                <li>&quot;<a className="text-blue-500" href="https://discord.gg/6nzuDZ3aT6" target="_new">Discord</a>&quot;,</li>
-                                <li>&quot;<a className="text-blue-500" href="https://etherscan.io/address/0x82f2b7599ecd534c3e2ccf160f2f090bc483f5aa" target="_new">Etherscan</a>&quot;]</li>
+                                <li>&nbsp;&quot;<a className="text-blue-500" href="https://discord.gg/6nzuDZ3aT6" target="_new">Discord</a>&quot;,</li>
+                                <li>&nbsp;&quot;<a className="text-blue-500" href="https://etherscan.io/address/0x82f2b7599ecd534c3e2ccf160f2f090bc483f5aa" target="_new">Etherscan</a>&quot;]</li>
                             </ul>
                         </div>
                     </div>
