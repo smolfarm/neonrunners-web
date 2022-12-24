@@ -45,7 +45,7 @@ const MintView = () => {
     // Handle cases where their wallet is not yet connected
     if(!isConnected) {
         return(
-            <div className="mx-auto">
+            <div className="mx-auto text-center">
                 Connect wallet to see more.
             </div>
         )
