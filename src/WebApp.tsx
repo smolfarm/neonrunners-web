@@ -62,9 +62,9 @@ const WebApp = () => {
 
                     <div className="flex flex-col mt-[-128] mx-auto w-full">
                         <div className="w-full text-center mx-auto text-3xl lg:text-6xl mt-16 md:mt-6 lg:mt-2 mb-12">
-                            [&quot;<a className="text-blue-500" href="https://twitter.com/NEONRUNNERSnft" target="_new">TWITTER</a>&quot;,<br />
-                            &quot;<a className="text-blue-500" href="https://twitter.com/fumeiji" target="_new">ART_BY_FUMEIJI</a>&quot;,<br />
-                            &quot;<a className="text-blue-500" href="https://ens0.me" target="_new">TECH_BY_ENS0</a>&quot;]<br />
+                            [&quot;<a className="text-blue-500 hover:text-blue-400" href="https://twitter.com/NEONRUNNERSnft" target="_new">TWITTER</a>&quot;,<br />
+                            &quot;<a className="text-blue-500 hover:text-blue-400" href="https://twitter.com/fumeiji" target="_new">ART_BY_FUMEIJI</a>&quot;,<br />
+                            &quot;<a className="text-blue-500 hover:text-blue-400" href="https://ens0.me" target="_new">TECH_BY_ENS0</a>&quot;]<br />
                         </div>
 
                         <div className="w-max text-center mx-auto">
@@ -77,9 +77,9 @@ const WebApp = () => {
 
                         <div className="mx-auto mt-12">
                             <ul className="list-none text-2xl mb-12">
-                                <li>[&quot;<a className="text-blue-500" href="https://opensea.io/collection/neon-runners" target="_new">OpenSea</a>&quot;,</li>
-                                <li>&nbsp;&quot;<a className="text-blue-500" href="https://discord.gg/6nzuDZ3aT6" target="_new">Discord</a>&quot;,</li>
-                                <li>&nbsp;&quot;<a className="text-blue-500" href="https://etherscan.io/address/0x82f2b7599ecd534c3e2ccf160f2f090bc483f5aa" target="_new">Etherscan</a>&quot;]</li>
+                                <li>[&quot;<a className="text-blue-500 hover:text-blue-400" href="https://opensea.io/collection/neon-runners" target="_new">OpenSea</a>&quot;,</li>
+                                <li>&nbsp;&quot;<a className="text-blue-500 hover:text-blue-400" href="https://discord.gg/6nzuDZ3aT6" target="_new">Discord</a>&quot;,</li>
+                                <li>&nbsp;&quot;<a className="text-blue-500 hover:text-blue-400" href="https://etherscan.io/address/0x82f2b7599ecd534c3e2ccf160f2f090bc483f5aa" target="_new">Etherscan</a>&quot;]</li>
                             </ul>
                         </div>
                     </div>
